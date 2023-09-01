@@ -1,0 +1,88 @@
+.container {
+  height: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  align-items: center;
+}
+
+.example-card {
+  background: none;
+  box-shadow: none;
+  align-items: center;
+  // justify-content: center;
+  // align-items: center;
+}
+
+.example-header-image {
+  background-image: url('../../../assets/img/perfil.jpg');
+  background-size: cover;
+  height: 80px;
+  width: 80px;
+  margin-top: 1rem;
+  margin-bottom: 0.5rem;
+}
+
+.mat-mdc-card-content {
+  text-align: center;
+
+  mat-card-title {
+    color: #4D0A73;
+    font-weight: 600;
+    margin-bottom: 5px;
+  }
+
+  mat-card-subtitle {
+    color: #4D0A73;
+    font-size: 1.3rem;
+    font-weight: 300;
+    margin: 0;
+    padding: 0;
+  }
+}
+
+.example-button-collumn {
+  margin-bottom: 5rem;
+
+  a {
+    width: 400px;
+    font-weight: 600;
+    color: #4D0A73;
+    background: #F7F4E6;
+    margin: 20px 0;
+    display: flex;
+    transition: 0.5s;
+  }
+
+  a:hover {
+    background: #E6A96E;
+  }
+}
+
+.footer {
+  position: fixed;
+  bottom: 0;
+  justify-content: center;
+  z-index: 1;
+  background: #4D0A73;
+}
+
+.example-footer-image {
+  background-image: url('../../../assets//img/brand.png');
+  background-size: contain;
+  width: 200px;
+  border-radius: 0;
+  background-repeat: no-repeat;
+  margin-bottom: 0;
+  margin-top: 10px;
+}
+
+@media (max-width: 600px) {
+
+  .example-button-collumn {
+    a {
+      width: 250px;
+    }
+  }
+
+}
